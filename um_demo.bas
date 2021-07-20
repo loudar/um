@@ -4,14 +4,7 @@ REM $DYNAMIC
 
 '$INCLUDE: 'um.bi'
 
-REDIM SHARED AS INTEGER activeLayer
-REDIM SHARED AS _BYTE mainexit, linemode, pointsize
-REDIM SHARED AS _INTEGER64 activeGrab, activeHandleGrab, roundsSinceEdit, keyhit
-REDIM SHARED AS DOUBLE frameTimes(50), frameTimesFull(200)
-
-RANDOMIZE TIMER
-
-'_SCREENSHOW
+REDIM SHARED AS _INTEGER64 keyhit
 
 resetAllValues
 REDIM SHARED AS INTEGER screenresx, screenresy, winresx, winresy
@@ -39,8 +32,7 @@ DO
 
     _DISPLAY
     _LIMIT internal.setting.fps
-LOOP UNTIL mainexit = -1 OR restart = -1
-IF restart = -1 THEN GOTO start
+LOOP
 
 '$INCLUDE: 'um.bm'
 '$INCLUDE: 'um_dependent.bm'
