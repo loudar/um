@@ -6,8 +6,8 @@
 
 # Framework files
 <b>.dui</b> files - Defines a view.<br>
-<b>views.dui</b> files - Has to list all the other .dui files you want to use<br>
-<b>config.dst</b> files - Keeps settings stored between settings.<br>
+<b>views.dui</b> file - Has to list all the other .dui files you want to use<br>
+<b>config.dst</b> file - Keeps settings stored between sessions.<br>
 <b>/fonts</b> files - Default fonts and those used by schemes.<br>
 
 # Elements in .dui files
