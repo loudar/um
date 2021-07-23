@@ -35,6 +35,7 @@
 <b>group</b> - Supports Integer numbers, only used for radiobuttons at the moment<br>
 <b>value</b> - Supports values from 0-1, only used for sliders at the moment<br>
 <b>style</b> - Only used for buttons and other elements consisting of rectangles. Supports the following values: b, bf<br>
+<b>textalign</b> - Supports the following values: topleft, left, bottomleft, topcenter, center, bottomcenter, topright, right, bottomright<br>
 
 # Custom elements and attributes
 Feel free to add those and refine the framework! I also highly encourage adding more functionality and robustness to the overall project - I would love to make this even more universally usable!
