@@ -84,8 +84,6 @@ SUB elementKeyHandling (this AS element, elementindex AS INTEGER, bufferchar AS 
                     uiCall "revert", this, elementindex
                 CASE "f" 'replace buffer with "nodetarget="
                     uiCall "search", this, elementindex
-                CASE "n" 'replace buffer with "action=add.node;nodetarget="
-                    uiCall "add node", this, elementindex
                 CASE "0"
                     IF this.name = "commandline" THEN addToHistory this, elementindex: this.buffer = this.buffer + "action=": this.cursor = LEN(this.buffer)
                 CASE "1" 'attach "nodeorigin=" to buffer
