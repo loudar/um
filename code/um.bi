@@ -15,8 +15,9 @@ TYPE global
     AS _BYTE licensestatus, partialsearch, actionlock
 END TYPE
 REDIM SHARED global AS global
-global.programName = "Vedit"
-global.permalink = "vedit"
+' license authentication works via Gumroad
+global.programName = "Demo"
+global.permalink = "demo"
 global.permalinkCode = "xxxx"
 
 TYPE element

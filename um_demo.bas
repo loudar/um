@@ -2,7 +2,7 @@ CLS: CLOSE
 $RESIZE:ON
 REM $DYNAMIC
 
-'$INCLUDE: 'um.bi'
+'$INCLUDE: 'code\um.bi'
 
 REDIM SHARED AS _INTEGER64 keyhit
 
@@ -34,5 +34,5 @@ DO
     _LIMIT internal.setting.fps
 LOOP
 
-'$INCLUDE: 'um.bm'
-'$INCLUDE: 'um_dependent.bm'
+'$INCLUDE: 'code\um.bm'
+'$INCLUDE: 'code\um_dependent.bm'

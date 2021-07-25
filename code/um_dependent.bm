@@ -465,7 +465,7 @@ FUNCTION checkLicense (license$)
                             CASE IS = "sale_timestamp": saletimestamp$ = value$
                             CASE IS = "purchaser_id": purchaserID = VAL(value$)
                             CASE IS = "test": test$ = value$
-                            CASE IS = "How did you discover Datanet?": discovery$ = value$
+                            CASE IS = "How did you discover "+global.programname+"?": discovery$ = value$
                             CASE IS = "license_key": licensekey$ = value$
                             CASE IS = "ip_country": IPcountry$ = value$
                             CASE IS = "is_gift_receiver_purchase": isgift$ = value$
