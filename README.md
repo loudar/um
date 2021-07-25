@@ -13,6 +13,7 @@
 # Elements in .dui files
 <b>title</b> - Big text, although modifiable how you display it (maybe it's too big or too small for your taste?)<br>
 <b>text</b> - Standard text, currently does not have overflow<br>
+<b>input</b> - Inline input, currently does not have overflow<br>
 <b>radiobutton</b> - Can be assigned to a group, works like radio buttons do<br>
 <b>checkbox</b> - Toggles like a normal checkbox, assign it a variable via the "name" attribute!<br>
 <b>slider</b> - Slides. Value from 0-1. Also assign a variable via the "name" attribute.<br>
