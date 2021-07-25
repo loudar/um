@@ -37,6 +37,10 @@
 <b>value</b> - Supports values from 0-1, only used for sliders at the moment<br>
 <b>style</b> - Only used for buttons and other elements consisting of rectangles. Supports the following values: b, bf<br>
 <b>textalign</b> - Supports the following values: topleft, left, bottomleft, topcenter, center, bottomcenter, topright, right, bottomright<br>
+<b>url</b> - Used for buttons that are supposed to open the browser<br>
+<b>allownumbers</b> - Supports the following values: -1 [true], 0 [false]<br>
+<b>allowtext</b> - Supports the following values: -1 [true], 0 [false]<br>
+<b>allowspecial</b> - Supports the following values: -1 [true], 0 [false]<br>
 
 # Custom elements and attributes
 Feel free to add those and refine the framework! I also highly encourage adding more functionality and robustness to the overall project - I would love to make this even more universally usable!
