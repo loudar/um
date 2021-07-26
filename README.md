@@ -1,5 +1,5 @@
 # Acknowledgments
-Targon Universal Menu uses code by <a href=https://www.qb64.org/forum/index.php?action=profile;u=9>SMcNeill</a>.
+Targon Universal Menu uses code by <a href="https://www.qb64.org/forum/index.php?action=profile;u=9">SMcNeill</a>.
 
 # Included Files
 <b>um_dependent.bm</b> - Everything that might have to be modified, depending on your program<br>
