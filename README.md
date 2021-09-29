@@ -8,8 +8,8 @@ Targon Universal Menu uses code by <a href="https://www.qb64.org/forum/index.php
 <b>um_demo.bas</b> - A little demo of what the framework can do<br>
 
 # Framework files
-<b>.dui</b> files - Defines a view.<br>
-<b>views.dui</b> file - Has to list all the other .dui files you want to use<br>
+<b>.dui/.tui</b> files - Defines a view.<br>
+<b>views.dui/views.tui</b> file - Has to list all the other .dui files you want to use<br>
 <b>config.dst</b> file - Keeps settings stored between sessions.<br>
 <b>/fonts</b> files - Default fonts and those used by schemes.<br>
 
